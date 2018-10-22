@@ -12,6 +12,7 @@
 package pbo;
 
 import pbo.pertemuan1.Tugas;
+import pbo.pertemuan2.Strings;
 
 /**
  *
@@ -20,9 +21,23 @@ import pbo.pertemuan1.Tugas;
 public class Pbo {
 
     public static void main(String[] args) {
-//        StrukturKontrol.contoh1();
+//        pertemuan ke1
+//==========================================
+//        StrukturKontrol.contohImmutable();
 //        StrukturKontrol.contohSwitch();
-        Tugas.tugas1();
+//        Tugas.tugas1();
+
+//pertemuan ke2
+//============================================
+//        Strings.contohImmutable();
+//        Strings.contohCreateString();
+//        Strings.contohConcatenate();
+//        Strings.contohFormatString();
+//        Strings.contohSubString();
+//        Strings.countString();
+        Strings.sampleStringBuffer();
+//Strings.contohOperatorSamaDengan();
+//        Strings.contohCompareTo();
     }
-    
+
 }
