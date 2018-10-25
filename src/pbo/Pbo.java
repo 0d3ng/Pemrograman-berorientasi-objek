@@ -11,8 +11,7 @@
  */
 package pbo;
 
-import pbo.pertemuan1.Tugas;
-import pbo.pertemuan2.Strings;
+import pbo.pertemuan3.Matematika;
 
 /**
  *
@@ -35,9 +34,14 @@ public class Pbo {
 //        Strings.contohFormatString();
 //        Strings.contohSubString();
 //        Strings.countString();
-        Strings.sampleStringBuffer();
+//        Strings.sampleStringBuffer();
 //Strings.contohOperatorSamaDengan();
 //        Strings.contohCompareTo();
+//pertemuan ke-3
+//=============================================
+//        Matematika.precedence();
+//        Matematika.basicFunction();
+        Matematika.tugas();
     }
 
 }
