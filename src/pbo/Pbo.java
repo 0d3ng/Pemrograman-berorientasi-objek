@@ -11,7 +11,8 @@
  */
 package pbo;
 
-import pbo.pertemuan3.Matematika;
+import pbo.pertemuan1.Tugas;
+import pbo.pertemuan4.Manusia;
 
 /**
  *
@@ -41,7 +42,13 @@ public class Pbo {
 //=============================================
 //        Matematika.precedence();
 //        Matematika.basicFunction();
-        Matematika.tugas();
+//        Matematika.tugas();
+//    pertemuan ke-4
+//    ==========================================
+//        Manusia m = new Manusia();
+//        m.nama = "Udin";
+//        System.out.println("" + m.nama);
+        pbo.pertemuan4.tugas.Tugas t = new pbo.pertemuan4.tugas.Tugas();
+        t.tugas1();
     }
-
 }
