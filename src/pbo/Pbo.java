@@ -11,8 +11,11 @@
  */
 package pbo;
 
-import pbo.pertemuan1.Tugas;
-import pbo.pertemuan4.Manusia;
+import pbo.pertemuan4.Pertemuan4;
+import pbo.pertemuan4.tugas.Tugas;
+import pbo.pertemuan5.Lingkup;
+import pbo.pertemuan5.Mobil;
+import pbo.pertemuan5.Pertemuan5;
 
 /**
  *
@@ -45,10 +48,25 @@ public class Pbo {
 //        Matematika.tugas();
 //    pertemuan ke-4
 //    ==========================================
-//        Manusia m = new Manusia();
-//        m.nama = "Udin";
-//        System.out.println("" + m.nama);
-        pbo.pertemuan4.tugas.Tugas t = new pbo.pertemuan4.tugas.Tugas();
-        t.tugas1();
+//        Pertemuan4.contoh1();
+//        Pertemuan4.contoh2();
+//        Pertemuan4.contoh3();
+//        Pertemuan4.contoh4();
+//        Pertemuan4.contoh5();
+//        Pertemuan4.contoh6();
+//        Pertemuan4.contoh7();
+//        Pertemuan4.contoh8();
+//        Pertemuan4.contoh9();
+//        Tugas.matrikIdentitas();
+//        pertemuan ke-5
+//=================================================
+//        Pertemuan5.nomor1();
+//        Mobil m = new Mobil();
+//        Mobil m = new Mobil("Hitam", 2018);
+//        System.out.println("Warna: " + m.getWarna());
+//        System.out.println("Tahun: " + m.getTahun());
+        Lingkup l = new Lingkup();
+        l.infoLingkup();
+        
     }
 }
