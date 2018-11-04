@@ -16,6 +16,9 @@ import pbo.pertemuan4.tugas.Tugas;
 import pbo.pertemuan5.Lingkup;
 import pbo.pertemuan5.Mobil;
 import pbo.pertemuan5.Pertemuan5;
+import pbo.pertemuan6.BangunDatar;
+import pbo.pertemuan6.PersegiPanjang;
+import pbo.pertemuan6.SegiTiga;
 
 /**
  *
@@ -65,8 +68,19 @@ public class Pbo {
 //        Mobil m = new Mobil("Hitam", 2018);
 //        System.out.println("Warna: " + m.getWarna());
 //        System.out.println("Tahun: " + m.getTahun());
-        Lingkup l = new Lingkup();
-        l.infoLingkup();
-        
+//        Lingkup l = new Lingkup();
+//        l.infoLingkup();
+//        pertemuan ke-6
+//===================================================
+        PersegiPanjang pp = new PersegiPanjang();
+        pp.setLebar(2);
+        pp.setPanjang(5);
+        System.out.println("luas    : " + pp.hitungLuas());
+        System.out.println("keliling: " + pp.hitungKeliling());
+        SegiTiga st = new SegiTiga();
+        st.setAlas(10);
+        st.setTinggi(2);
+        System.out.println("luas    : " + st.hitungLuas());
+        System.out.println("keliling: " + st.hitungKeliling());
     }
 }
