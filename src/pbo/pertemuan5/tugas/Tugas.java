@@ -11,8 +11,12 @@
 package pbo.pertemuan5.tugas;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
+import pbo.pertemuan5.tugas.sort.MahasiswaByIpk;
+import pbo.pertemuan5.tugas.sort.MahasiswaByNama;
+import pbo.pertemuan5.tugas.sort.MahasiswaByNim;
 
 /**
  *
@@ -51,30 +55,70 @@ public class Tugas {
     }
 
     public static void tugas1() {
-        int pilih = 0;
+        int pil = 0;
         do {
             System.out.println("");
             System.out.println("Tugas tentang class-object");
             System.out.println("--------------------------");
             System.out.println("1. Input data");
             System.out.println("2. Tampil data");
-            System.out.println("3. Keluar");
+            System.out.println("3. Sorting data");
+            System.out.println("4. Keluar");
             System.out.print("Pilih: ");
             Scanner s = new Scanner(System.in);
-            pilih = s.nextInt();
-            switch (pilih) {
+            pil = s.nextInt();
+            switch (pil) {
                 case 1:
                     inputData();
                     break;
                 case 2:
                     tampilData();
                     break;
+                case 3:
+                    int pilSubmenu;
+                    do {
+                        System.out.println("");
+                        System.out.println("Sorting data mahasiswa");
+                        System.out.println("--------------------------");
+                        System.out.println("1. Sorting by nim");
+                        System.out.println("2. Sorting by nama");
+                        System.out.println("3. Sorting by ipk");
+                        System.out.println("4. Kembali ke awal");
+                        System.out.print("Pilih: ");
+                        pilSubmenu = s.nextInt();
+                        switch (pilSubmenu) {
+                            case 1:
+                                sortingByNim();
+                                break;
+                            case 2:
+                                sortingByNama();
+                                break;
+                            case 3:
+                                sortingByIpk();
+                                break;
+                        }
+                    } while (pilSubmenu != 4);
             }
-        } while (pilih != 3);
+        } while (pil != 4);
     }
 
     public static void main(String[] args) {
         tugas1();
+    }
+
+    private static void sortingByNim() {
+        Collections.sort(mahasiswas, new MahasiswaByNim());
+        tampilData();
+    }
+
+    private static void sortingByNama() {
+        Collections.sort(mahasiswas, new MahasiswaByNama());
+        tampilData();
+    }
+
+    private static void sortingByIpk() {
+        Collections.sort(mahasiswas, new MahasiswaByIpk());
+        tampilData();
     }
 
 }

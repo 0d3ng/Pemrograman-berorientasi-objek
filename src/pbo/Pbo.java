@@ -72,12 +72,12 @@ public class Pbo {
 //        l.infoLingkup();
 //        pertemuan ke-6
 //===================================================
-        PersegiPanjang pp = new PersegiPanjang();
+        PersegiPanjang pp = new PersegiPanjang(2,5);
         pp.setLebar(2);
         pp.setPanjang(5);
         System.out.println("luas    : " + pp.hitungLuas());
         System.out.println("keliling: " + pp.hitungKeliling());
-        SegiTiga st = new SegiTiga();
+        SegiTiga st = new SegiTiga(10,2);
         st.setAlas(10);
         st.setTinggi(2);
         System.out.println("luas    : " + st.hitungLuas());

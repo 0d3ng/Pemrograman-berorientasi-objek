@@ -20,6 +20,11 @@ public class PersegiPanjang extends BangunDatar {
     private float lebar;
 //    methode getter setter
 
+    public PersegiPanjang(float panjang, float lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
+
     public float getPanjang() {
         return panjang;
     }

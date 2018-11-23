@@ -16,6 +16,10 @@ package pbo.pertemuan6;
  */
 public class Persegi extends BangunDatar {
 
+    public Persegi(float sisi) {
+        this.sisi = sisi;
+    }
+
     private float sisi;
 //    method getter setter
 
