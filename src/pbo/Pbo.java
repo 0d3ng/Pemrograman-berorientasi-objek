@@ -19,6 +19,8 @@ import pbo.pertemuan5.Pertemuan5;
 import pbo.pertemuan6.BangunDatar;
 import pbo.pertemuan6.PersegiPanjang;
 import pbo.pertemuan6.SegiTiga;
+import pbo.pertemuan9.Employee;
+import pbo.pertemuan9.Salary;
 
 /**
  *
@@ -72,15 +74,30 @@ public class Pbo {
 //        l.infoLingkup();
 //        pertemuan ke-6
 //===================================================
-        PersegiPanjang pp = new PersegiPanjang(2,5);
-        pp.setLebar(2);
-        pp.setPanjang(5);
-        System.out.println("luas    : " + pp.hitungLuas());
-        System.out.println("keliling: " + pp.hitungKeliling());
-        SegiTiga st = new SegiTiga(10,2);
-        st.setAlas(10);
-        st.setTinggi(2);
-        System.out.println("luas    : " + st.hitungLuas());
-        System.out.println("keliling: " + st.hitungKeliling());
+//        PersegiPanjang pp = new PersegiPanjang(2, 5);
+//        pp.setLebar(2);
+//        pp.setPanjang(5);
+//        System.out.println("luas    : " + pp.hitungLuas());
+//        System.out.println("keliling: " + pp.hitungKeliling());
+//        SegiTiga st = new SegiTiga(10, 2);
+//        st.setAlas(10);
+//        st.setTinggi(2);
+//        System.out.println("luas    : " + st.hitungLuas());
+//        System.out.println("keliling: " + st.hitungKeliling());
+//        pertemuan ke-9
+//        =============================================
+//        Salary salary = new Salary(100, "3456", "Tono", "Solo");
+//        System.out.println("" + salary.getNip());
+//        System.out.println("" + salary.getNama());
+//        System.out.println("" + salary.getAlamat());
+//        System.out.println("" + salary.hitungGaji());
+//        Employee e = new Salary(1000, "1234", "NOpri", "Jogja");
+//        System.out.println("" + e.getNip());
+//        System.out.println("" + e.getNama());
+//        System.out.println("" + e.getAlamat());
+//        System.out.println("" + e.hitungGaji());
+
+
+
     }
 }
