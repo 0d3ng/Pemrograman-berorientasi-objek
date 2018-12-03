@@ -21,6 +21,7 @@ import pbo.pertemuan6.PersegiPanjang;
 import pbo.pertemuan6.SegiTiga;
 import pbo.pertemuan9.Employee;
 import pbo.pertemuan9.Salary;
+import pbo.pertemuan9.*;
 
 /**
  *
